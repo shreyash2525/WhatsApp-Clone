@@ -1,6 +1,5 @@
 import {
     cs1,
-    cs2,
     chat1,
     chat2,
     chat3,
@@ -14,12 +13,13 @@ import {
     chat11,
     chat12,
     chat13,
+    pp,
 } from "../assets/whatsapp";
 
 export const chatsData = [
     {
         pp: cs1,
-        contact: "Coding Spot",
+        contact: "Coder",
         msg: "Awesome, thank you!",
         time: "1:15 pm",
         unreadMsgs: null,
@@ -180,75 +180,60 @@ export const messagesData = [
         sent: true,
     },
     {
-        msg: "This WhatsApp clone is firee 🔥",
+        msg: "have you finished the homework",
         time: "10:58 am",
         sent: true,
     },
     {
-        msg: "Keep it up! 👍👍👍",
-        time: "10:59 am",
+        msg: "Yes I have 😀",
+        time: "11:15 am",
+        sent: false,
+    },
+    {
+        msg: "Can you send it I can't figure out how to do it",
+        time: "11:15 am",
         sent: true,
     },
     {
-        msg: "Thanks a lot! 😀",
-        time: "11:15 am",
-        sent: false,
-    },
-    {
-        msg: "Make sure to follow all my socials! 👌👌",
-        time: "11:15 am",
-        sent: false,
-    },
-    {
-        msg: "I will! what's your Github?",
+        msg: "Check it out on my GitHub",
         time: "11:28 am",
+        sent: false,
+    },
+    {
+        msg: "What's your GitHub id ???",
+        time: "11:36 am",
         sent: true,
     },
     {
-        msg: "AlejoG10",
+        msg: "shreyash2525",
         time: "11:36 am",
         sent: false,
     },
     {
-        msg: "https://github.com/AlejoG10",
+        msg: "https://github.com/shreyash2525",
         isLink: true,
         time: "11:36 am",
         sent: false,
     },
+    
     {
-        msg: "And your YouTube channel?",
-        time: "11:47 am",
+        msg: "Thanks 👌👌",
+        time: "11:55 am",
         sent: true,
     },
     {
-        msg: "Coding Spot",
+        msg: "np",
         time: "11:55 am",
         sent: false,
     },
     {
-        msg: "https://www.youtube.com/channel/UCLqXQLK6zKZg0trhanjAkkQ",
-        isLink: true,
-        time: "11:55 am",
-        sent: false,
-    },
-    {
-        img: cs2,
+        img: pp,
         time: "11:56 am",
         sent: false,
     },
     {
-        msg: "Niceeee channel! 🔥💯",
+        msg: "Niceeee pic 🔥💯",
         time: "12:35 pm",
         sent: true,
-    },
-    {
-        msg: "I will see all of your videos 😉",
-        time: "12:35 pm",
-        sent: true,
-    },
-    {
-        msg: "Awesome, thank for your support! 🙌",
-        time: "1:15 pm",
-        sent: false,
     },
 ];
